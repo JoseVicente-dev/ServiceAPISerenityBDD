@@ -25,8 +25,6 @@ public class SingleUserTestStepDefinitions extends ServiceSetUp {
 
     private final HashMap<String, Object> headers = new HashMap<>();
     private final Actor actor = Actor.named("Samuel");
-    private String bodyRequest;
-
 
     @Given("que estoy en el servicio")
     public void queEstoyEnElServicio() {
