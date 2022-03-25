@@ -34,7 +34,7 @@ public class SingleUserTestStepDefinitions extends ServiceSetUp {
             generalSetUp();
 
             actor.can(CallAnApi.at(BASE_URI));
-            headers.put("Content-Type", ContentType.APPLICATION_JSON.withCharset(StandardCharsets.UTF_8));//posible bug
+            headers.put("Content-Type", ContentType.APPLICATION_JSON.withCharset(StandardCharsets.UTF_8));
 
         } catch (Exception e) {
             LOGGER.error(e.getMessage(), e);
