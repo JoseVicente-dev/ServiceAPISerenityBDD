@@ -60,7 +60,7 @@ public class SingleUserTestStepDefinitions extends ServiceSetUp {
         LastResponse.received().answeredBy(actor).prettyPrint();
 
         actor.should(
-                seeThatResponse("Es status deberia ser: " + status,
+                seeThatResponse("El status deberia ser: " + status,
                         validatableResponse -> validatableResponse.statusCode(status)
                 ),
                 seeThat("La respuesta deberia no ser nula: ", response(), Matchers.notNullValue())

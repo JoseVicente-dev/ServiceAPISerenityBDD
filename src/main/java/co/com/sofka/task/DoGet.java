@@ -16,10 +16,9 @@ public class DoGet implements Task {
         actor.attemptsTo(
                 Get.resource(resource)
                         .with(
-                                requestSpecification -> requestSpecification.headers(headers).relaxedHTTPSValidation()
+                                requestSpecification -> requestSpecification.relaxedHTTPSValidation()
                         )
         );
-
     }
 
     public DoGet usingTheResource(String resource) {
