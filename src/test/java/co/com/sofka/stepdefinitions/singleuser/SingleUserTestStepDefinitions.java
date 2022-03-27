@@ -31,7 +31,6 @@ public class SingleUserTestStepDefinitions extends ServiceSetUp {
         } catch (Exception e) {
             LOGGER.error(e.getMessage(), e);
         }
-
     }
 
     @When("y realizo una peticion")

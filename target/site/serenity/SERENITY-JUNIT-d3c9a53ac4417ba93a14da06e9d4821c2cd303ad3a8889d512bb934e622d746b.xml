@@ -1,1 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="consultar usuario" skipped="0" tests="2" time="4.54" timestamp="2022-03-27 04:55:18"><testcase name="consultar un usuario"/><testcase name="usuario no existente"/></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="consultar usuario" skipped="0" tests="2" time="4.66" timestamp="2022-03-27 05:30:56"><testcase name="consultar un usuario"/><testcase name="usuario no existente"/></testsuite>
